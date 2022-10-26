@@ -17,13 +17,16 @@
                     />
                 </div>
             </div>
-            <div class="d-flex flex-column justify-center align-center text-white">
-                <p class="ma-0">Venez découvrir comment...</p>
-                <v-icon
-                    x-large
-                    color="white">
-                    mdi-chevron-double-down
-                </v-icon>
+            <div class="text-white text-center">
+                <h2>Forum Conference sur la Ville de demain</h2>
+                <div class="align-end">
+                    <p class="ma-0">Venez découvrir comment...</p>
+                    <v-icon
+                        x-large
+                        color="white">
+                        mdi-chevron-double-down
+                    </v-icon>
+                </div>
             </div>
         </div>
     </div>
@@ -59,18 +62,14 @@ export default {
     background-position: center;
     border-radius: 0 0 30px 30px;
     width: 100%;
-    height: 400px;
-
-    @media screen and (min-width: 960px) {
-        height: 800px;
-    }
+    height: 100vh;
 }
 
 .img-container {
-    height: 80%;
+    height: 75%;
 
     @media screen and (min-width: 960px) {
-        height: 90%;
+        height: 80%;
     }
 }
 
