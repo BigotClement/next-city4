@@ -1,19 +1,19 @@
 <template>
     <div id="header-component">
         <div class="city-background">
-            <div class="d-flex justify-center align-center img-container">
+            <div class="d-flex justify-center align-center flex-wrap img-container">
                 <div class="d-block mr-5">
                     <v-img
                         :src="require('/public/img/Logo/Logo_CLR_Logotype_WHT.svg')"
                         transition="scale-transition"
-                        width="400"
+                        :width="imageWidth"
                     />
                 </div>
                 <div class="d-block ml-5">
                     <v-img
                         :src="require('/public/img/PCDV.svg')"
                         transition="scale-transition"
-                        width="400"
+                        :width="imageWidth"
                     />
                 </div>
             </div>
@@ -31,26 +31,47 @@
 
 <script>
 export default {
-    name: "HeaderComponent"
+    name: "HeaderComponent",
+    computed: {
+        imageWidth() {
+            switch (this.$vuetify.breakpoint.name) {
+                case 'xs': return 200
+                case 'sm': return 200
+                case 'md': return 300
+                case 'lg': return 400
+                case 'xl': return 500
+                default : return 400
+            }
+        }
+    }
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 #header-component {
-    background-color: #7520FF;
+    background-color: #5116b3;
 }
 
 .city-background {
     background-image: url('/public/img/CityGradiant.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 0 0 30px 30px;
     width: 100%;
-    height: 800px;
+    height: 400px;
+
+    @media screen and (min-width: 960px) {
+        height: 800px;
+    }
 }
 
 .img-container {
-    height: 90%;
+    height: 80%;
+
+    @media screen and (min-width: 960px) {
+        height: 90%;
+    }
 }
 
 .text-white {
