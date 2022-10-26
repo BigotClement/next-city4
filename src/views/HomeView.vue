@@ -1,15 +1,20 @@
 <template>
-  <hello-world />
+    <div>
+        <header-component/>
+    </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import HeaderComponent from "@/components/HeaderComponent";
 
-  export default {
-    name: 'HomeView',
-
+export default {
+    name: "HomeView",
     components: {
-      HelloWorld,
-    },
-  }
+        HeaderComponent
+    }
+}
 </script>
+
+<style scoped>
+
+</style>
