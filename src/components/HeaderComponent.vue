@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="text-white text-center">
-                <h2>Forum Conference sur la Ville de demain</h2>
+                <h2>Forum Conférences sur la Ville de demain</h2>
                 <div class="align-end">
                     <p class="ma-0">Venez découvrir comment...</p>
                     <v-icon
