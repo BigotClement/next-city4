@@ -12,7 +12,7 @@
                     elevation="5"
                 >
                     <v-img
-                        :src="require('/public/img/AboutUsPhoto.png')"
+                        :src="require('/public/img/AboutUsPhoto.jpg')"
                         max-height="600"
                     />
                 </v-card>
@@ -35,7 +35,7 @@
         >
             <v-card>
                 <v-img
-                    :src="require('/public/img/AboutUsPhoto.png')"
+                    :src="require('/public/img/AboutUsPhoto.jpg')"
                     max-height="800"
                 />
             </v-card>
