@@ -3,31 +3,31 @@
         <div class="about-us-background pa-16">
             <h2 class="mb-10">Qui sommes nous ?</h2>
 
-            <p>
-                Nous sommes des étudiants en dernière année au CESI École d'Ingénieurs. Cette année, notre défi
-                est de
-                réaliser un grand événement : <strong>Next City 4.0</strong> !
-            </p>
-            <p>
-                Chaque année est organisé un salon sur les technologies de demain.
-                Le but est d’anticiper les évolutions et d’amener les solutions adaptées.
-            </p>
-
-
-            <div class="d-flex justify-center">
+            <div class="d-flex flex-row flex-wrap justify-center align-center">
                 <v-card
+                    class="ma-10"
                     rounded="xl"
                     @click="ShowDialog()"
                     :max-width="imageWidth"
+                    elevation="5"
                 >
                     <v-img
                         :src="require('/public/img/AboutUsPhoto.png')"
                         max-height="600"
                     />
                 </v-card>
+                <div class="text-container ma-10">
+                    <p>
+                        Nous sommes des étudiants en dernière année au CESI École d'Ingénieurs. Notre défi
+                        est de
+                        réaliser un grand événement : <strong>Next City 4.0</strong> !
+                    </p>
+                    <p>
+                        Chaque année est organisé un salon sur les technologies de demain.
+                        Le but est d’anticiper les évolutions et d’amener les solutions adaptées.
+                    </p>
+                </div>
             </div>
-
-
         </div>
 
         <v-dialog
@@ -81,7 +81,7 @@ export default {
 <style scoped>
 #about-us-component {
     color: white;
-    background-color: #2a9599;
+    background-color: #ffa100;
 }
 
 .about-us-background {
@@ -89,7 +89,7 @@ export default {
     border-radius: 0 0 30px 30px;
 }
 
-.hexagon {
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+.text-container {
+    max-width: 400px;
 }
 </style>
