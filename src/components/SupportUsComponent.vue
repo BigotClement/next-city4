@@ -13,7 +13,7 @@
             <p>Si vous souhaitez nous aider dans notre projet, vous pouvez le faire de deux façons: </p>
             <ul>
                 <li>
-                    Via une <a class="link" href="https://www.leetchi.com/c/next-city-4"><strong>cagnotte Leetchi</strong></a> que nous avons mis en place.
+                    Via une <a target="_blank" class="link" href="https://www.leetchi.com/c/next-city-4"><strong>cagnotte Leetchi</strong></a> que nous avons mis en place.
                 </li>
                 <li>
                     <p>

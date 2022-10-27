@@ -13,7 +13,6 @@
                 >
                     <v-img
                         :src="require('/public/img/AboutUsPhoto.jpg')"
-                        max-height="600"
                     />
                 </v-card>
                 <div class="text-container ma-10">
