@@ -1,7 +1,7 @@
 <template>
-    <div class="d-flex flex-column justify-center ml-16 mr-16">
+    <div class="d-flex flex-column justify-center ml-16 mr-16 mt-5">
         <v-card
-            color="secondary"
+            :color="'#2a9599'"
             rounded="lg"
             class="box-rotate"
             width="200"
@@ -12,7 +12,7 @@
                 </p>
             </v-card-text>
         </v-card>
-        <p class="text-center pa-5 ma-0 text-white text-subtitle-1" style="max-width: 250px">
+        <p class="text-center pa-5 ma-0  text-subtitle-1" style="max-width: 250px">
             {{ description }}
         </p>
     </div>
@@ -43,11 +43,4 @@ export default {
     margin: 10px 0;
     line-height: 30px;
 }
-
-.text-white {
-    color: white!important;
-}
-
-
-
 </style>

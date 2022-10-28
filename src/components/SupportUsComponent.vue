@@ -1,18 +1,18 @@
 <template>
     <div id="support-us-component">
-        <div class="support-us-background pa-5">
-            <div class="pl-5 pr-5">
+        <div class="pa-5 d-flex justify-center flex-wrap align-center">
+            <div class="pl-5 pr-5 support-text">
                 <h2 class="mb-10">Nous soutenir</h2>
 
-                <p>
+                <p class="text-subtitle-1">
                     En nous soutenant, vous devenez un acteur de la transformation locale s'inscrivant dans une
                     démarche technologique et environnementale. Vous permettrez à notre événement de
                     se dérouler dans un lieu d'exception.
                 </p>
 
                 <h3>Comment rejoindre notre aventure ?</h3>
-                <p>Si vous souhaitez nous aider dans notre projet, vous pouvez le faire de deux façons: </p>
-                <ul>
+                <p class="text-subtitle-1">Si vous souhaitez nous aider dans notre projet, vous pouvez le faire de deux façons: </p>
+                <ul class="text-subtitle-1">
                     <li>
                         Via une <a target="_blank" class="link" href="https://www.leetchi.com/c/next-city-4"><strong>cagnotte
                         Leetchi</strong></a> que nous avons mis en place.
@@ -27,7 +27,6 @@
                             notre
                             événement !
                         </p>
-
                     </li>
                 </ul>
             </div>
@@ -35,7 +34,7 @@
             <v-card
                 rounded="xl"
                 :color="'#461399'"
-                class="mt-5"
+                class="ma-5"
             >
                 <v-card-text>
                     <h3 class="text-center text-white mb-3">Suivez-nous sur les réseaux !</h3>
@@ -80,6 +79,10 @@ export default {
 </script>
 
 <style scoped>
+.support-text {
+    max-width: 400px;
+}
+
 .link {
     color: #5116b3;
 }
