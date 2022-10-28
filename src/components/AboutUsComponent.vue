@@ -1,7 +1,7 @@
 <template>
     <div id="about-us-component">
         <div class="pa-5">
-            <div class="d-flex flex-row flex-wrap justify-center align-center">
+            <div class="d-flex flex-row flex-wrap-reverse justify-center align-center">
                 <v-card
                     class="ma-10"
                     rounded="xl"
