@@ -1,8 +1,6 @@
 <template>
     <div id="about-us-component">
-        <div class="about-us-background pa-16">
-            <h2 class="mb-10">Qui sommes nous ?</h2>
-
+        <div class="pa-5">
             <div class="d-flex flex-row flex-wrap justify-center align-center">
                 <v-card
                     class="ma-10"
@@ -15,7 +13,8 @@
                         :src="require('/public/img/AboutUsPhoto.jpg')"
                     />
                 </v-card>
-                <div class="text-container ma-10">
+                <div class="text-container mt-10 pl-5 pr-5">
+                    <h2 class="mb-10">Qui sommes nous ?</h2>
                     <p>
                         Nous sommes des étudiants en dernière année au CESI École d'Ingénieurs. Notre défi
                         est de
@@ -78,16 +77,6 @@ export default {
 </script>
 
 <style scoped>
-#about-us-component {
-    color: white;
-    background-color: #ffa100;
-}
-
-.about-us-background {
-    background-color: #991342;
-    border-radius: 0 0 30px 30px;
-}
-
 .text-container {
     max-width: 400px;
 }

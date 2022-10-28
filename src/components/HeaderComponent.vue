@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="text-white text-center">
-                <h2>Forum Conférences sur la Ville de demain</h2>
+                <h2 class="pl-2 pr-2">Forum Conférences sur la Ville de demain</h2>
                 <div class="align-end">
                     <p class="ma-0">Venez découvrir comment...</p>
                     <v-icon
@@ -51,16 +51,12 @@ export default {
 </script>
 
 <style lang="scss">
-#header-component {
-    background-color: #5116b3;
-}
-
 .city-background {
     background-image: url('/public/img/CityGradiant.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 0 0 30px 30px;
+    /*border-radius: 0 0 30px 30px;*/
     width: 100%;
     height: 100vh;
 }
