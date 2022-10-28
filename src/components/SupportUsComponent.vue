@@ -80,7 +80,7 @@ export default {
 
 <style scoped>
 .support-text {
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .link {
