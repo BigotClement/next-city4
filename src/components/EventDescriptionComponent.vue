@@ -6,7 +6,7 @@
                 <h2 class="mb-10">Next City 4.0</h2>
                 <p class="description-text text-subtitle-1">
                     La dernière semaine de <strong>Janvier 2023</strong> à Nancy aura lieu
-                    un événement regroupant un <strong>forum</strong> et des <strong>conférences</strong>
+                    un événement avec des <strong>conférences</strong>
                     sur le thème de la <strong>Smart City</strong> et de l'<strong>Industrie 4.0.</strong>
                 </p>
             </div>
