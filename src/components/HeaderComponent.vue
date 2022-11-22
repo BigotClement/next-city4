@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="text-white text-center">
-                <h2 class="pl-2 pr-2">Forum Conférences sur la Ville de demain</h2>
+                <h2 class="pl-2 pr-2">Conférences sur la Ville de demain</h2>
                 <div class="align-end">
                     <p class="ma-0">Venez découvrir comment...</p>
                     <v-icon
