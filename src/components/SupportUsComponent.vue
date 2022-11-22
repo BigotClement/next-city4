@@ -11,7 +11,8 @@
                 </p>
 
                 <h3>Comment rejoindre notre aventure ?</h3>
-                <p class="text-subtitle-1">Si vous souhaitez nous aider dans notre projet, vous pouvez le faire de deux façons: </p>
+                <p class="text-subtitle-1">Si vous souhaitez nous aider dans notre projet, vous pouvez le faire de deux
+                    façons: </p>
                 <ul class="text-subtitle-1">
                     <li>
                         Via une <a target="_blank" class="link" href="https://www.leetchi.com/c/next-city-4"><strong>cagnotte
@@ -23,9 +24,7 @@
                                                                                          href="mailto:contact@nextcity4.fr">contact@nextcity4.fr</a></strong>.
                         </p>
                         <p>
-                            Nous pourrons vous proposer de devenir un exposant sur le forum ou bien un partenaire de
-                            notre
-                            événement !
+                            Nous pourrons vous proposer de devenir un partenaire de notre événement !
                         </p>
                     </li>
                 </ul>
