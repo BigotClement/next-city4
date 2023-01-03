@@ -1,16 +1,16 @@
 <template>
     <div id="program-view">
         <app-bar-component/>
-        <div class="pa-5 pr-16 pl-16">
+        <div class="pb-5 pr-16 pl-16 pt-10">
             <h1># Conférences</h1>
 
-            <p class="ma-0 pt-10">
+            <p class="ma-0 pt-5">
                 Vous trouverez ci-dessous 9 conférences au sujet plus passionnants les uns que les autres. Laissez les étudiants du CESI vous faire découvrir leurs travaux. Et suivez l'histoire des produits de l'usine jusqu'à leur seconde vie.
             </p>
 
             <div class="pt-10">
                 <h2># Production</h2>
-                <div class="d-flex flex-wrap justify-center">
+                <div class="d-flex flex-wrap">
                     <conference-topic-component v-for="(topic) in production_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
@@ -19,8 +19,8 @@
                     />
                 </div>
 
-                <h2 class="pt-3"># Acheminement</h2>
-                <div class="d-flex flex-wrap justify-center">
+                <h2 class="pt-7"># Acheminement</h2>
+                <div class="d-flex flex-wrap">
                     <conference-topic-component v-for="(topic) in forwarding_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
@@ -29,8 +29,8 @@
                     />
                 </div>
 
-                <h2 class="pt-3"># Vente</h2>
-                <div class="d-flex flex-wrap justify-center">
+                <h2 class="pt-7"># Vente</h2>
+                <div class="d-flex flex-wrap">
                     <conference-topic-component v-for="(topic) in sell_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
@@ -39,8 +39,8 @@
                     />
                 </div>
 
-                <h2 class="pt-3"># Revalorisation</h2>
-                <div class="d-flex flex-wrap justify-center">
+                <h2 class="pt-7"># Revalorisation</h2>
+                <div class="d-flex flex-wrap">
                     <conference-topic-component v-for="(topic) in revaluation_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"

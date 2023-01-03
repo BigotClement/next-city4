@@ -28,7 +28,7 @@
                 </div>
                 <div class="d-block ml-5">
                     <v-img
-                        :src="require('/public/img/PCDV.svg')"
+                        :src="require('/public/img/Logo/PCDV.svg')"
                         transition="scale-transition"
                         :width="imageWidth"
                     />
