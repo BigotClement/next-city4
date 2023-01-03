@@ -21,8 +21,7 @@
                 >
                     <rotate-card-component num="9" number-title="Conférences"
                                            description="Sur le nouveau cycle de vie des produits !"/>
-<!--                    <rotate-card-component num="20" number-title="Exposants"
-                                           description="Dans le domaine de la Smart City et de l'Industrie 4.0"/>-->
+
                 </v-card-text>
             </v-card>
 

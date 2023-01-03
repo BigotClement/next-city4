@@ -15,6 +15,18 @@
         <p class="text-center pa-5 ma-0  text-subtitle-1" style="max-width: 250px">
             {{ description }}
         </p>
+
+        <p class="text-center ma-0">
+            <a href="/programme" class="link">
+                Découvrir la programmation
+                <v-icon
+                    :color="'#5116b3'"
+                    class="mb-1 link-icon"
+                >
+                    mdi-menu-right
+                </v-icon>
+            </a>
+        </p>
     </div>
 </template>
 
@@ -29,18 +41,28 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .box-rotate {
     transform: rotate(-2.5deg);
     margin: 0 25px
 }
 
 .box-rotate-text {
-
     transform: rotate(2.5deg);
     color: white;
     font-size: 25px;
     margin: 10px 0;
     line-height: 30px;
+}
+
+.link {
+    color: #5116b3;
+    text-decoration: none;
+
+    &:hover {
+        .link-icon {
+            margin-left: 5px;
+        }
+    }
 }
 </style>
