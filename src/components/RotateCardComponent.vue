@@ -12,16 +12,16 @@
                 </p>
             </v-card-text>
         </v-card>
-        <p class="text-center pa-5 ma-0  text-subtitle-1" style="max-width: 250px">
+        <p class="text-center pa-5 ma-0 text-subtitle-1" style="max-width: 250px">
             {{ description }}
         </p>
 
-        <p class="text-center ma-0">
+        <p class="text-center ma-0 text-subtitle-1">
             <a href="/conferences" class="link">
                 Découvrir la programmation
                 <v-icon
                     :color="'#5116b3'"
-                    class="mb-1 link-icon"
+                    class="link-icon"
                 >
                     mdi-menu-right
                 </v-icon>

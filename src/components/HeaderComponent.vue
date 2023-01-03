@@ -1,6 +1,23 @@
 <template>
     <div id="header-component">
         <div class="city-background">
+            <div class="text-white d-flex flex-row justify-end pa-3">
+                <v-btn
+                    to="/"
+                    text class="text-white"
+                >
+                    Accueil
+                </v-btn>
+
+                <div class="divider"/>
+
+                <v-btn
+                    to="/conferences"
+                    text class="text-white"
+                >
+                    Conférences
+                </v-btn>
+            </div>
             <div class="d-flex justify-center align-center flex-wrap img-container">
                 <div class="d-block mr-5">
                     <v-img
@@ -62,7 +79,7 @@ export default {
 }
 
 .img-container {
-    height: 75%;
+    height: 70%;
 
     @media screen and (min-width: 960px) {
         height: 80%;
@@ -70,6 +87,12 @@ export default {
 }
 
 .text-white {
-    color: white;
+    color: white!important;
+}
+
+.divider {
+    width: 0;
+    border: solid white 1px;
+    margin: 0 5px;
 }
 </style>

@@ -10,7 +10,7 @@
 
             <div class="pt-10">
                 <h2># Production</h2>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-center">
                     <conference-topic-component v-for="(topic) in production_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
@@ -20,7 +20,7 @@
                 </div>
 
                 <h2 class="pt-3"># Acheminement</h2>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-center">
                     <conference-topic-component v-for="(topic) in forwarding_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
@@ -30,7 +30,7 @@
                 </div>
 
                 <h2 class="pt-3"># Vente</h2>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-center">
                     <conference-topic-component v-for="(topic) in sell_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
@@ -40,7 +40,7 @@
                 </div>
 
                 <h2 class="pt-3"># Revalorisation</h2>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-center">
                     <conference-topic-component v-for="(topic) in revaluation_topics" :key="topic.title"
                         class="pa-3"
                         :title="topic.title"
