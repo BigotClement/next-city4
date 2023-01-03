@@ -1,5 +1,6 @@
 <template>
     <div id="program-view">
+        <app-bar-component/>
         <div class="pa-5 pr-16 pl-16">
             <h1># Conférences</h1>
 
@@ -57,10 +58,13 @@
 
 <script>
 import ConferenceTopicComponent from "@/components/ConferenceTopicComponent";
+import AppBarComponent from "@/components/AppBarComponent";
+
 export default {
     name: "ProgramView",
     components: {
         ConferenceTopicComponent,
+        AppBarComponent,
     },
     data() {
         return {

@@ -17,7 +17,7 @@
         </p>
 
         <p class="text-center ma-0">
-            <a href="/programme" class="link">
+            <a href="/conferences" class="link">
                 Découvrir la programmation
                 <v-icon
                     :color="'#5116b3'"
