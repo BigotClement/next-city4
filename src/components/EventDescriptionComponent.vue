@@ -61,6 +61,7 @@ export default {
 }
 .link {
     color: #5116b3;
+    text-decoration: underline;
 }
 
 .size-20 {
