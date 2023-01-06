@@ -16,7 +16,7 @@
             {{ description }}
         </p>
 
-        <p class="text-center ma-0 text-subtitle-1">
+        <p class="text-center ma-0" style="font-size: 17px">
             <a href="/conferences" class="link">
                 Découvrir la programmation
                 <v-icon

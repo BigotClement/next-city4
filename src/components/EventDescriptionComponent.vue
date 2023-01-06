@@ -1,13 +1,29 @@
 <template>
     <div id="event-description-component">
         <div class="pa-5 pt-10 d-flex justify-center flex-wrap align-center">
-
             <div class="pl-5 pr-5">
                 <h2 class="mb-10">Next City 4.0</h2>
+                <p class="description-text size-20">
+                    Nous sommes ravis de vous accueillir <strong>mardi 24 janvier 2023</strong> pour notre
+                    <strong>événement Next City 4.0.</strong>
+                </p>
+                <p class="description-text size-20">
+                    Une série de conférences sur <strong>l'Industrie 4.0 et la Smart City*</strong> vous sera présentée à
+                    <strong>la salle des fête Bernie Bonvoisin de Vandœuvre-lès-Nancy.</strong>
+                </p>
+                <p class="description-text size-20">
+                    L'événement est entierement gratuitr et en <strong>entrée libre.</strong> Il débutera à <strong>10h</strong>
+                    et se déroulera sur la <strong>journée complète.</strong>
+                </p>
+                <p class="description-text size-20">
+                    Next City 4.0 vous intéresse ? Afin d'estimer au mieux le nombre de visiteurs, nous mettons à votre disposition
+                    un <a href="https://forms.gle/zVsYpTNDy2vmW2io8" class="link"><strong>formulaire</strong></a> qui ne prendra que quelques secondes à remplir.
+                </p>
+                <p class="description-text size-20">
+                    Pour plus d'information n'hésitez pas à voir la liste des conférences.
+                </p>
                 <p class="description-text text-subtitle-1">
-                    La dernière semaine de <strong>Janvier 2023</strong> à Nancy aura lieu
-                    un événement avec des <strong>conférences</strong>
-                    sur le thème de la <strong>Smart City</strong> et de l'<strong>Industrie 4.0.</strong>
+                    *Concept de Ville Intelligente
                 </p>
             </div>
 
@@ -24,7 +40,6 @@
 
                 </v-card-text>
             </v-card>
-
         </div>
     </div>
 </template>
@@ -42,6 +57,13 @@ export default {
 
 <style scoped>
 .description-text {
-    max-width: 400px;
+    max-width: 600px;
+}
+.link {
+    color: #5116b3;
+}
+
+.size-20 {
+    font-size: 20px;
 }
 </style>

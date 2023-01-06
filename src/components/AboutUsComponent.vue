@@ -15,12 +15,12 @@
                 </v-card>
                 <div class="text-container mt-10 pl-5 pr-5">
                     <h2 class="mb-10">Qui sommes nous ?</h2>
-                    <p class="text-subtitle-1">
+                    <p class="size-20">
                         Nous sommes des étudiants en dernière année au CESI École d'Ingénieurs. Notre défi
                         est de
                         réaliser un grand événement : <strong>Next City 4.0</strong> !
                     </p>
-                    <p class="text-subtitle-1">
+                    <p class="size-20">
                         Chaque année est organisé un salon sur les technologies de demain.
                         Le but est d’anticiper les évolutions et d’amener les solutions adaptées.
                     </p>
@@ -79,5 +79,9 @@ export default {
 <style scoped>
 .text-container {
     max-width: 400px;
+}
+
+.size-20 {
+    font-size: 20px;
 }
 </style>

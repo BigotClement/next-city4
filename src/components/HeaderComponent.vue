@@ -78,11 +78,13 @@ export default {
     height: 100vh;
 }
 
+
+
 .img-container {
     height: 70%;
 
     @media screen and (min-width: 960px) {
-        height: 80%;
+        height: 75%;
     }
 }
 
