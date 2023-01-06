@@ -12,7 +12,7 @@
                     <strong>la salle des fête Bernie Bonvoisin de Vandœuvre-lès-Nancy.</strong>
                 </p>
                 <p class="description-text size-20">
-                    L'événement est entierement gratuitr et en <strong>entrée libre.</strong> Il débutera à <strong>10h</strong>
+                    L'événement est entierement gratuit et en <strong>entrée libre.</strong> Il débutera à <strong>9h30</strong>
                     et se déroulera sur la <strong>journée complète.</strong>
                 </p>
                 <p class="description-text size-20">
