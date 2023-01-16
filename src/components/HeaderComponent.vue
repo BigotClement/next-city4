@@ -5,6 +5,7 @@
                 <v-btn
                     to="/"
                     text class="text-white"
+                    :small="this.$vuetify.breakpoint.name === 'xs'"
                 >
                     Accueil
                 </v-btn>
@@ -14,8 +15,20 @@
                 <v-btn
                     to="/conferences"
                     text class="text-white"
+                    :small="this.$vuetify.breakpoint.name === 'xs'"
                 >
                     Conférences
+                </v-btn>
+
+                <div class="divider"/>
+
+                <v-btn
+                    text class="text-white"
+                    :small="this.$vuetify.breakpoint.name === 'xs'"
+                >
+                    <a href="https://forms.gle/zVsYpTNDy2vmW2io8" target="_blank" class="form-link">
+                        S'inscrire
+                    </a>
                 </v-btn>
             </div>
             <div class="d-flex justify-center align-center flex-wrap img-container">
@@ -55,12 +68,18 @@ export default {
     computed: {
         imageWidth() {
             switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return 200
-                case 'sm': return 200
-                case 'md': return 300
-                case 'lg': return 400
-                case 'xl': return 500
-                default : return 400
+                case 'xs':
+                    return 200
+                case 'sm':
+                    return 200
+                case 'md':
+                    return 300
+                case 'lg':
+                    return 400
+                case 'xl':
+                    return 500
+                default :
+                    return 400
             }
         }
     }
@@ -79,7 +98,6 @@ export default {
 }
 
 
-
 .img-container {
     height: 70%;
 
@@ -89,12 +107,17 @@ export default {
 }
 
 .text-white {
-    color: white!important;
+    color: white !important;
 }
 
 .divider {
     width: 0;
     border: solid white 1px;
     margin: 0 5px;
+}
+
+.form-link {
+    text-decoration: none!important;
+    color: white!important;
 }
 </style>

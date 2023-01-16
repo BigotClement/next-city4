@@ -12,12 +12,12 @@
                     <strong>la salle des fête Bernie Bonvoisin de Vandœuvre-lès-Nancy.</strong>
                 </p>
                 <p class="description-text size-20">
-                    L'événement est entierement gratuit et en <strong>entrée libre.</strong> Il débutera à <strong>9h30</strong>
+                    L'événement est entierement gratuit et en <strong>entrée libre.</strong> L'ouverture au public s'effectura à partir de <strong>9h30</strong>
                     et se déroulera sur la <strong>journée complète.</strong>
                 </p>
                 <p class="description-text size-20">
                     Next City 4.0 vous intéresse ? Afin d'estimer au mieux le nombre de visiteurs, nous mettons à votre disposition
-                    un <a href="https://forms.gle/zVsYpTNDy2vmW2io8" class="link"><strong>formulaire</strong></a> qui ne prendra que quelques secondes à remplir.
+                    un <a href="https://forms.gle/zVsYpTNDy2vmW2io8" target="_blank" class="link"><strong>formulaire</strong></a> qui ne prendra que quelques secondes à remplir.
                 </p>
                 <p class="description-text size-20">
                     Pour plus d'information n'hésitez pas à voir la liste des conférences.

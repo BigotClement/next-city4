@@ -15,6 +15,7 @@
                 <v-btn
                     to="/"
                     text class="text-white"
+                    :x-small="this.$vuetify.breakpoint.name === 'xs'"
                 >
                     Accueil
                 </v-btn>
@@ -24,8 +25,20 @@
                 <v-btn
                     to="/conferences"
                     text class="text-white"
+                    :x-small="this.$vuetify.breakpoint.name === 'xs'"
                 >
                     Conférences
+                </v-btn>
+
+                <div class="divider"/>
+
+                <v-btn
+                    text class="text-white"
+                    :x-small="this.$vuetify.breakpoint.name === 'xs'"
+                >
+                    <a href="https://forms.gle/zVsYpTNDy2vmW2io8" target="_blank" class="form-link">
+                        S'inscrire
+                    </a>
                 </v-btn>
             </div>
         </div>
@@ -47,6 +60,11 @@ export default {
     width: 0;
     border: solid white 1px;
     margin: 0 5px;
+}
+
+.form-link {
+    text-decoration: none;
+    color: white;
 }
 
 </style>
