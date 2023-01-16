@@ -5,7 +5,7 @@
             <h1># Conférences</h1>
 
             <p class="ma-0 pt-5">
-                Vous trouverez ci-dessous 9 conférences au sujet plus passionnants les uns que les autres. Laissez les
+                Vous trouverez ci-dessous 9 conférences aux sujets plus passionnants les uns que les autres. Laissez les
                 étudiants du CESI vous faire découvrir leurs travaux. Et suivez l'histoire des produits de l'usine
                 jusqu'à leur seconde vie.
             </p>
